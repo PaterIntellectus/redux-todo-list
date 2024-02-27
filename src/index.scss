@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('wood-table-texture-seamless-guxgaxub1.jpg');
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background-color: unset;
+  cursor: pointer;
+}
+
+label {
+  -webkit-user-select: none;
+  user-select: none;
+}

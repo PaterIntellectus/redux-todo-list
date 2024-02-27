@@ -1,0 +1,19 @@
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.todo-form-input {
+  min-width: 222px;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.todo-form-button {
+  padding: 4px;
+  margin-block-start: 8px;
+
+  border: 1px solid black;
+  border-radius: 4px;
+}

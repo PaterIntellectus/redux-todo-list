@@ -1,0 +1,18 @@
+.editable-text-wrapper {
+  position: relative;
+
+  background-color: antiquewhite;
+
+  // font-size: 30px;
+
+  color: red !important;
+  cursor: pointer;
+}
+
+.editable-text-wrapper:hover {
+  color: blue !important;
+}
+
+.editable-text-form {
+  background-color: inherit;
+}

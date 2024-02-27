@@ -1,0 +1,58 @@
+.todo-filter {
+  position: relative;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+
+  width: 100%;
+  border-block: 1px solid black;
+
+  font-weight: 500;
+  background-color: white;
+}
+
+.todo-filter-item {
+  position: relative;
+
+  border-inline-end: 1px solid black;
+
+  transition: all 0.1s;
+
+  text-transform: capitalize;
+
+  &:last-of-type {
+    border: none;
+  }
+
+  &:has(input:checked) {
+    box-shadow: 0 1px 3px 1px inset rgba(0, 0, 0, 0.3);
+
+    background: linear-gradient(
+      to right,
+      rgb(233, 233, 233),
+      rgb(247, 247, 247)
+    );
+  }
+
+  &:focus-within,
+  &:active {
+    text-decoration: underline;
+    background: linear-gradient(
+      to right,
+      rgb(224, 224, 224),
+      rgb(240, 240, 240)
+    ) !important;
+  }
+
+  &:hover {
+    background: linear-gradient(
+      to right,
+      rgb(233, 233, 233),
+      rgb(247, 247, 247)
+    );
+  }
+
+  & > input {
+    appearance: none;
+  }
+}
